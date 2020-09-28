@@ -14,7 +14,7 @@ Norwegian ssn:
 * Button | onBlur | RUN clientside javascript | validateSocialSecurityNumberNo($(this));
 
 2. Add hidden input-field 'valid-ssn'
-* Create input field. 
+* Create input field. Remove label and set to hidden.
 * Set expression value to 'false' and update value to render. 
 * 'Use only when field is empty' toggled on.
 
