@@ -6,8 +6,8 @@ They check if the date input is valid and that the control-numbers sum is correc
 1. Create your SSN input field and add events.
 
 Swedish ssn:
-Button | onChange | RUN clientside javascript | testSwedFnr($(this));
-Button | onBlur | RUN clientside javascript | testSwedFnr($(this));
+* Button | onChange | RUN clientside javascript | testSwedFnr($(this));
+* Button | onBlur | RUN clientside javascript | testSwedFnr($(this));
 
 Norwegian ssn:
 Button | onChange | RUN clientside javascript | validateSocialSecurityNumberNo($(this));
